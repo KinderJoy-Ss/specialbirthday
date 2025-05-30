@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎉 Happy Birthday Kesayanganku!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<canvas id="heartCanvas"></canvas>
+
+<body>
+  <h1>🎂 Happy Birthday Kesayanganku! 🎂</h1>
+  <button id="playMusicBtn">🎵 Putar Musik</button>
+
+
+  <!-- Musik -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="audio/birthday-song.mp3" type="audio/mp3" />
+  </audio>
+
+  <!-- Game -->
+  <div id="gameArea">
+    <div id="player">
+      <img src="img/hati.png" alt="love" class="player-img" />
+    </div>
+    <div id="finishLine"></div>
+  </div>
+  <button id="moveBtn">👉 Jalan Terus!</button>
+
+  <!-- Pesan Cinta -->
+  <div id="message" class="hidden">
+    <h2>👑 You're gonna live forever in me 👑</h2>
+    <p id="typedMessage"></p>
+  </div>
+
+  <!-- Tombol Galeri -->
+  <button id="galleryBtn">📸 Lihat Kenangan Kita</button>
+
+  <!-- Galeri Foto -->
+  <div id="gallery" class="hidden">
+    <h2>💗 Kenangan Kita 💗</h2>
+    <div class="photos">
+      <img src="photos/photo1.jpg" alt="Kenangan" />
+      <img src="photos/photo2.jpg" alt="Kenangan" />
+      <img src="photos/photo3.jpg" alt="Kenangan" />
+     <img src="photos/photo4.jpg" alt="Kenangan" />
+      <img src="photos/photo5.jpg" alt="Kenangan" />
+     <img src="photos/photo6.jpg" alt="Kenangan" />
+       <img src="photos/photo7.jpg" alt="Kenangan" />
+    </div>
+  </div>
+
+  <section id="timeline">
+  <h2>📖 Timeline Cinta Kita</h2>
+  <div class="timeline-entry">
+    <span class="date">25 Desember 2024</span>
+    <p>What a lovely day 💖 </p>
+  </div>
+  <div class="timeline-entry">
+    <span class="date">8 Februari 2025</span>
+    <p>Ultah AKUU, kamu kasi aku kado yang bikin aku nangis 🥺</p>
+  </div>
+  <div class="timeline-entry">
+    <span class="date">27 Mei 2025</span>
+    <p>ULTAHH KAMUUUU 💖💖💖🎂🎂🎂</p>
+  </div>
+</section>
+
+
+  <script src="script.js"></script>
+
+  <div id="musicReminder" class="popup">
+  🎶 Jangan lupa klik tombol "Putar Musik" yaa biar makin romantis! 💖
+</div>
+
+</body>
+</html>
